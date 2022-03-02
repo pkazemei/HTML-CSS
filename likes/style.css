@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header{
+    width: 1200px;
+background-color: black;
+color: white;
+}
+
+.feed{
+position: relative;
+left: 530px;
+}
+
+.userCont{
+    border: 2px solid black;
+    width: 400px;
+    min-height: 150px;
+    margin: 0 auto;
+}
+
+.user{
+    margin-top: 40px;
+}
+
+.desc{
+    text-align: center;
+}
+
+button{
+    background-color: yellow;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+
+img{
+    width: 100px;
+}
+
+.leftCol{
+    flex: 1;
+}
+
+.rightCol{
+    flex: 2;
+}
+
+.profile{
+    border: 2px solid black;
+    width: 100px;
+    min-height: 200px;
+    margin: 0 auto;
+}

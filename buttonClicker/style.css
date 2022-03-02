@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    width: 900px;
+    min-height: 100px;
+    background-color: lightgrey;
+    border: 2px solid;
+    margin: 0 auto;
+    padding: 0px 10px
+}
+
+.container{
+    display: flex;
+    width: 900px;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.leftcol{
+    min-height: 200px;
+    flex: 2;
+}
+
+.defCon{
+    border: 2px solid black;
+    padding: 20px;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.rightcol{
+    min-height: 200px;
+    flex: 1;
+}
+
+.dojonary{
+    border: 2px solid black;
+    padding: 20px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.defLeft{
+    flex: 1;
+}
+
+.defLeft *{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.defRight{
+    flex: 3;
+}
+
+#remove{
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.like{
+background-color: yellow;
+padding: 10px;
+}

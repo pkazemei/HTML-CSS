@@ -1,0 +1,89 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 1910px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.headerList ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: larger;
+}
+
+.mainProfile{
+    height: 400px;
+    width: 500px;
+    border: 2px solid;
+    margin-left: 20px;
+    
+}
+
+.mainHeader{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.mainPic{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
+.userName, .mapMarker, .headline, .gear{ 
+    position: relative;
+    top: -80px;
+}
+
+.headline{
+    font-size: large;
+}
+
+.connectionRequests{
+    border: solid 2px;
+    height: 250px;
+    width: 400px;
+}
+
+.cRHeader{
+    height: 75px;
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+}
+
+.yourConnections{
+    border: solid 2px;
+    height: 700px;
+    width: 400px;
+}
+
+.yCHeader{
+    height: 75px;
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+}
+
+.education{
+    border: solid 2px;
+    height: 250px;
+    width: 400px;
+}
+
+.educationHeader{
+    height: 75px;
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+
+.otherUsers{
+    margin-left: 10px;
+}

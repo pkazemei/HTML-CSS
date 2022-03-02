@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 4px 4px 4px grey;
+  }
+  .user{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+  }
+  h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+
+  }
+  p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+  #message {
+    width: inherit;
+    background-color: #fff;
+    position: relative; 
+    right: 40px;
+    bottom: 20px;
+  }
+  #message * {
+    margin: 10px;
+  }
+  #message .header {
+    margin: 0px;
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+  }
+  #message button {
+    height: 30px;
+    width: 80px;
+  }
+  
+.name{
+  position: relative;
+  bottom: 20px;
+
+}
+.edit{
+  text-align: left;
+  position: relative;
+}
+
+.header{
+  background-color: aqua;
+  height: 100px;
+  width: 840px;
+}
+
+.map{
+  position: relative;
+  bottom: 10px;
+}

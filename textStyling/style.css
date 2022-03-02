@@ -1,0 +1,33 @@
+.mycloud{
+    background-color: black;
+    font-family: cursive;
+    padding: 2px;
+}
+
+#my{
+    color: white;
+}
+
+#cloud{
+    color: lightblue;
+
+}
+
+.completed{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.contact{
+    background-color: lightblue;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-decoration-line: underline;
+    padding: 5px;
+
+}
